@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<robot name="firefighter">
+
+  <!-- Base link -->
+  <link name="g_base">
+    <visual>
+      <origin xyz="0.0 0 -0.03" rpy="0 0 1.5708"/>
+      <geometry>
+        <mesh filename="G_base\.stl"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0 -0.03" rpy="0 0 1.5708"/>
+      <geometry>
+        <mesh filename="G_base\.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 1 -->
+  <link name="joint1">
+    <visual>
+      <origin xyz="0.0 0 0" rpy="0 0 -1.5708"/>
+      <geometry>
+        <mesh filename="joint1\.stl"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0 0" rpy="0 0 -1.5708"/>
+      <geometry>
+        <mesh filename="joint1\.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 2 -->
+  <link name="joint2">
+    <visual>
+      <origin xyz="0.0 0 -0.06096" rpy="0 0 -1.5708"/>
+      <geometry>
+        <mesh filename="joint2\.stl"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0 -0.06096" rpy="0 0 -1.5708"/>
+      <geometry>
+        <mesh filename="joint2\.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 3 -->
+  <link name="joint3">
+    <visual>
+      <origin xyz="0.0 0 0.03256" rpy="0 -1.5708 0"/>
+      <geometry>
+        <mesh filename="joint3\.stl"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0 0.03256" rpy="0 -1.5708 0"/>
+      <geometry>
+        <mesh filename="joint3\.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 4 -->
+  <link name="joint4">
+    <visual>
+      <origin xyz="0.0 0 0.03056" rpy="0 -1.5708 0"/>
+      <geometry>
+        <mesh filename="joint4\.stl"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0 0.03056" rpy="0 -1.5708 0"/>
+      <geometry>
+        <mesh filename="joint4\.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 5 -->
+  <link name="joint5">
+    <visual>
+      <origin xyz="0.0 0 -0.03356" rpy="-1.5708 0 0"/>
+      <geometry>
+        <mesh filename="joint5\.stl"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0 -0.03356" rpy="-1.5708 0 0"/>
+      <geometry>
+        <mesh filename="joint5\.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 6 -->
+  <link name="joint6">
+    <visual>
+      <origin xyz="0 0 -0.038" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="joint6\.stl"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.038" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="joint6\.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Flange / Joint7 -->
+  <link name="joint6_flange">
+    <visual>
+      <origin xyz="0.0 0 -0.012" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="joint7\.stl"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0 -0.012" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="joint7\.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Fixed joint: base → joint1 -->
+  <joint name="g_base_to_joint1" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="g_base"/>
+    <child  link="joint1"/>
+  </joint>
+
+  <!-- Revolute: joint1 → joint2 -->
+  <joint name="joint2_to_joint1" type="revolute">
+    <origin xyz="0 0 0.13156" rpy="0 0 0"/>
+    <axis  xyz="0 0 1"/>
+    <limit lower="-2.9322" upper="2.9322" effort="1000" velocity="0"/>
+    <parent link="joint1"/>
+    <child  link="joint2"/>
+  </joint>
+
+  <!-- Revolute: joint2 → joint3 -->
+  <joint name="joint3_to_joint2" type="revolute">
+    <origin xyz="0 0 0" rpy="0 1.5708 -1.5708"/>
+    <axis  xyz="0 0 1"/>
+    <limit lower="-2.3562" upper="2.3562" effort="1000" velocity="0"/>
+    <parent link="joint2"/>
+    <child  link="joint3"/>
+  </joint>
+
+  <!-- Revolute: joint3 → joint4 -->
+  <joint name="joint4_to_joint3" type="revolute">
+    <origin xyz="-0.1104 0 0" rpy="0 0 0"/>
+    <axis  xyz="0 0 1"/>
+    <limit lower="-2.618" upper="2.618" effort="1000" velocity="0"/>
+    <parent link="joint3"/>
+    <child  link="joint4"/>
+  </joint>
+
+  <!-- Revolute: joint4 → joint5 -->
+  <joint name="joint5_to_joint4" type="revolute">
+    <origin xyz="-0.096 0 0.06462" rpy="0 0 -1.5708"/>
+    <axis  xyz="0 0 1"/>
+    <limit lower="-2.5307" upper="2.5307" effort="1000" velocity="0"/>
+    <parent link="joint4"/>
+    <child  link="joint5"/>
+  </joint>
+
+  <!-- Revolute: joint5 → joint6 -->
+  <joint name="joint6_to_joint5" type="revolute">
+    <origin xyz="0 -0.07318 0" rpy="1.5708 -1.5708 0"/>
+    <axis  xyz="0 0 1"/>
+    <limit lower="-2.8798" upper="2.8798" effort="1000" velocity="0"/>
+    <parent link="joint5"/>
+    <child  link="joint6"/>
+  </joint>
+
+  <!-- Revolute: joint6 → flange -->
+  <joint name="joint6output_to_joint6" type="revolute">
+    <origin xyz="0 0.0456 0" rpy="-1.5708 0 0"/>
+    <axis  xyz="0 0 1"/>
+    <limit lower="-3.1416" upper="3.1416" effort="1000" velocity="0"/>
+    <parent link="joint6"/>
+    <child  link="joint6_flange"/>
+  </joint>
+
+</robot>
