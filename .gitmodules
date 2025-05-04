@@ -1,9 +1,0 @@
-[submodule "src/mycobot_ros2"]
-	path = src/mycobot_ros2
-	url = https://github.com/automaticaddison/mycobot_ros2.git
-[submodule "src/moveit_task_constructor"]
-	path = src/moveit_task_constructor
-	url = https://github.com/ros-planning/moveit_task_constructor.git
-[submodule "src/warehouse_ros_mongo"]
-	path = src/warehouse_ros_mongo
-	url = https://github.com/ros-planning/warehouse_ros_mongo.git
