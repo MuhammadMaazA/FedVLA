@@ -1,0 +1,1 @@
+/home/mmaaz/ros2_ws/build/mycobot_mtc_demos/ament_cmake_environment_hooks/local_setup.zsh

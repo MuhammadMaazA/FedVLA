@@ -1,0 +1,76 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found urdf_tutorial: 1.1.0 (/opt/ros/jazzy/share/urdf_tutorial/cmake)
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (5.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/mmaaz/ros2_ws/build/mycobot_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/launch/robot_state_publisher.launch.py
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_base.dae
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left1.dae
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left2.dae
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_left3.dae
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right1.dae
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right2.dae
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/adaptive_gripper/visual/gripper_right3.dae
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/d435/visual/d435.stl
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/g_shape_base_v2_0/visual/base_link.dae
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link1.dae
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link1.png
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link2.dae
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link2.png
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link3.dae
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link3.png
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link4.dae
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link4.png
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link5.dae
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link5.png
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link6.dae
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link6.png
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link7.dae
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/link7.png
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/visual/suit_env.dae
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/control/gazebo_sim_ros2_control.urdf.xacro
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/control/mycobot_280_ros2_control.urdf.xacro
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mech/adaptive_gripper.urdf.xacro
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mech/g_shape_base_v2_0.urdf.xacro
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mech/mycobot_280_arm.urdf.xacro
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot280_rviz.png
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/robots/mycobot_280.urdf.xacro
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/sensors/intel_rgbd_cam_d435.urdf.xacro
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/rviz/mycobot_280_description.rviz
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/ament_index/resource_index/package_run_dependencies/mycobot_description
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/ament_index/resource_index/parent_prefix_path/mycobot_description
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/environment/path.sh
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/environment/path.dsv
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.bash
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.sh
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.zsh
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.dsv
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/package.dsv
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/ament_index/resource_index/packages/mycobot_description
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig.cmake
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig-version.cmake
+-- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_description/share/mycobot_description/package.xml

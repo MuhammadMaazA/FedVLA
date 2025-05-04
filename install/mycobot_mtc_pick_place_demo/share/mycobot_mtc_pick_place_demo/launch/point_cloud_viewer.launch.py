@@ -1,0 +1,1 @@
+/home/mmaaz/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo/launch/point_cloud_viewer.launch.py

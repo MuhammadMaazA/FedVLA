@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-89a5fef5e4f79b9af3a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mycobot_mtc_demos",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ik_clearance_cost_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ik_clearance_cost_parameters-Release-24a1a7d6eee9691b5b66.json",
+					"name" : "ik_clearance_cost_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_mtc_demos_alternative_path_costs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_mtc_demos_alternative_path_costs-Release-0a353d3956694e4b5797.json",
+					"name" : "mycobot_mtc_demos_alternative_path_costs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_mtc_demos_cartesian::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_mtc_demos_cartesian-Release-2b6616f9965f400e05df.json",
+					"name" : "mycobot_mtc_demos_cartesian",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_mtc_demos_fallbacks_move_to::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_mtc_demos_fallbacks_move_to-Release-90a9bed1172b55e9c9f6.json",
+					"name" : "mycobot_mtc_demos_fallbacks_move_to",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_mtc_demos_ik_clearance_cost::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_mtc_demos_ik_clearance_cost-Release-4f96e01724d8ef4201bf.json",
+					"name" : "mycobot_mtc_demos_ik_clearance_cost",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_mtc_demos_modular::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_mtc_demos_modular-Release-4fb535256ac79c53da97.json",
+					"name" : "mycobot_mtc_demos_modular",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_mtc_demos_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_mtc_demos_uninstall-Release-87324048699b05a4c387.json",
+					"name" : "mycobot_mtc_demos_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-b814c9517de0504d0665.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mmaaz/ros2_ws/build/mycobot_mtc_demos",
+		"source" : "/home/mmaaz/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

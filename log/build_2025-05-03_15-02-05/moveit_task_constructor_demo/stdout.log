@@ -1,0 +1,116 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found generate_parameter_library: 0.4.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found moveit_common: 2.12.3 (/opt/ros/jazzy/share/moveit_common/cmake)
+-- Found moveit_core: 2.12.3 (/opt/ros/jazzy/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_planning: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+-- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+-- Found moveit_task_constructor_core: 0.1.3 (/home/mmaaz/ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake)
+-- Configuring done (10.8s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/mmaaz/ros2_ws/build/moveit_task_constructor_demo
+[  5%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/mmaaz/ros2_ws/build/moveit_task_constructor_demo/include/moveit_task_constructor_demo/pick_place_demo_parameters.hpp /home/mmaaz/ros2_ws/src/moveit_task_constructor/demo/src/pick_place_demo_parameters.yaml `[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_demo_alternative_path_costs.dir/src/alternative_path_costs.cpp.o[0m
+[ 16%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/mmaaz/ros2_ws/build/moveit_task_constructor_demo/include/moveit_task_constructor_demo/ik_clearance_cost_parameters.hpp /home/mmaaz/ros2_ws/src/moveit_task_constructor/demo/src/ik_clearance_cost_parameters.yaml `[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_demo_fallbacks_move_to.dir/src/fallbacks_move_to.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_demo_cartesian.dir/src/cartesian.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_demo_modular.dir/src/modular.cpp.o[0m
+[ 38%] [34m[1mCreating deprecated header file /home/mmaaz/ros2_ws/build/moveit_task_constructor_demo/include/ik_clearance_cost_parameters.hpp[0m
+[ 38%] Built target ik_clearance_cost_parameters
+[ 44%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_demo_ik_clearance_cost.dir/src/ik_clearance_cost.cpp.o[0m
+[ 50%] [34m[1mCreating deprecated header file /home/mmaaz/ros2_ws/build/moveit_task_constructor_demo/include/pick_place_demo_parameters.hpp[0m
+[ 50%] Built target pick_place_demo_parameters
+[ 55%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_demo_pick_place_task.dir/src/pick_place_task.cpp.o[0m
+[ 61%] [32m[1mLinking CXX executable modular[0m
+[ 66%] [32m[1mLinking CXX executable cartesian[0m
+[ 66%] Built target moveit_task_constructor_demo_modular
+[ 66%] Built target moveit_task_constructor_demo_cartesian
+[ 72%] [32m[1mLinking CXX executable ik_clearance_cost[0m
+[ 77%] [32m[1mLinking CXX executable alternative_path_costs[0m
+[ 77%] Built target moveit_task_constructor_demo_ik_clearance_cost
+[ 77%] Built target moveit_task_constructor_demo_alternative_path_costs
+[ 83%] [32m[1mLinking CXX executable fallbacks_move_to[0m
+[ 83%] Built target moveit_task_constructor_demo_fallbacks_move_to
+[ 88%] [32m[1mLinking CXX shared library libmoveit_task_constructor_demo_pick_place_task.so[0m
+[ 88%] Built target moveit_task_constructor_demo_pick_place_task
+[ 94%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_demo_pick_place_demo.dir/src/pick_place_demo.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pick_place_demo[0m
+[100%] Built target moveit_task_constructor_demo_pick_place_demo
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib/libmoveit_task_constructor_demo_pick_place_task.so
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/cartesian
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/modular
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/alternative_path_costs
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/include/moveit_task_constructor_demo/ik_clearance_cost_parameters.hpp
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/include/moveit_task_constructor_demo/pick_place_demo_parameters.hpp
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/ik_clearance_cost
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/fallbacks_move_to
+-- Up-to-date symlink: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/include/moveit_task_constructor_demo/ik_clearance_cost_parameters.hpp
+-- Up-to-date symlink: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/include/moveit_task_constructor_demo/pick_place_demo_parameters.hpp
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/pick_place_demo
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/alternatives.py
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/cartesian.py
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/compute_ik.py
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/constrained.py
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/current_state.py
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/fallbacks.py
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/fix_collision_objects.py
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/fixed_state.py
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/generate_pose.py
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/merger.py
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/modify_planning_scene.py
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/multi_planner.py
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/pickplace.py
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib/moveit_task_constructor_demo/properties.py
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/launch/demo.launch.py
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/launch/run.launch.py
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/config/mtc.rviz
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/config/panda_config.yaml
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/share/ament_index/resource_index/package_run_dependencies/moveit_task_constructor_demo
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/share/ament_index/resource_index/parent_prefix_path/moveit_task_constructor_demo
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/environment/ament_prefix_path.sh
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/environment/ament_prefix_path.dsv
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/environment/path.sh
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/environment/path.dsv
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/local_setup.bash
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/local_setup.sh
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/local_setup.zsh
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/local_setup.dsv
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/package.dsv
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/share/ament_index/resource_index/packages/moveit_task_constructor_demo
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/cmake/moveit_task_constructor_demoConfig.cmake
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/cmake/moveit_task_constructor_demoConfig-version.cmake
+-- Symlinking: /home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/share/moveit_task_constructor_demo/package.xml
