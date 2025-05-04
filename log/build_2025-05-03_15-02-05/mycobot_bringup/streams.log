@@ -1,0 +1,47 @@
+[0.035s] Invoking command in '/home/mmaaz/ros2_ws/build/mycobot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/mmaaz/ros2_ws/src/mycobot_ros2/mycobot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mmaaz/ros2_ws/install/mycobot_bringup
+[0.368s] -- The C compiler identification is GNU 13.3.0
+[1.838s] -- The CXX compiler identification is GNU 13.3.0
+[3.149s] -- Detecting C compiler ABI info
+[3.793s] -- Detecting C compiler ABI info - done
+[3.807s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.808s] -- Detecting C compile features
+[3.808s] -- Detecting C compile features - done
+[4.147s] -- Detecting CXX compiler ABI info
+[5.258s] -- Detecting CXX compiler ABI info - done
+[5.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.283s] -- Detecting CXX compile features
+[5.283s] -- Detecting CXX compile features - done
+[5.283s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[5.507s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.599s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.668s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.827s] -- Added test 'lint_cmake' to check CMake code style
+[5.830s] -- Added test 'xmllint' to check XML markup files
+[5.835s] -- Configuring done (5.8s)
+[5.839s] -- Generating done (0.0s)
+[5.840s] -- Build files have been written to: /home/mmaaz/ros2_ws/build/mycobot_bringup
+[5.850s] Invoked command in '/home/mmaaz/ros2_ws/build/mycobot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/mmaaz/ros2_ws/src/mycobot_ros2/mycobot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mmaaz/ros2_ws/install/mycobot_bringup
+[5.851s] Invoking command in '/home/mmaaz/ros2_ws/build/mycobot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mmaaz/ros2_ws/build/mycobot_bringup -- -j22 -l22
+[5.895s] Invoked command in '/home/mmaaz/ros2_ws/build/mycobot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mmaaz/ros2_ws/build/mycobot_bringup -- -j22 -l22
+[5.898s] Invoking command in '/home/mmaaz/ros2_ws/build/mycobot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mmaaz/ros2_ws/build/mycobot_bringup
+[5.912s] -- Install configuration: ""
+[5.913s] -- Execute custom install script
+[5.914s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_bringup/share/mycobot_bringup/scripts/mycobot_280_gazebo.sh
+[5.929s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_bringup/share/mycobot_bringup/scripts/mycobot_280_gazebo_and_moveit.sh
+[5.937s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_bringup/share/mycobot_bringup/scripts/mycobot_280_mtc_demos.sh
+[5.949s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_bringup/share/ament_index/resource_index/package_run_dependencies/mycobot_bringup
+[5.965s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_bringup/share/ament_index/resource_index/parent_prefix_path/mycobot_bringup
+[5.981s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_bringup/share/mycobot_bringup/environment/ament_prefix_path.sh
+[5.996s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_bringup/share/mycobot_bringup/environment/ament_prefix_path.dsv
+[6.010s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_bringup/share/mycobot_bringup/environment/path.sh
+[6.027s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_bringup/share/mycobot_bringup/environment/path.dsv
+[6.033s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_bringup/share/mycobot_bringup/local_setup.bash
+[6.039s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_bringup/share/mycobot_bringup/local_setup.sh
+[6.046s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_bringup/share/mycobot_bringup/local_setup.zsh
+[6.059s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_bringup/share/mycobot_bringup/local_setup.dsv
+[6.070s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_bringup/share/mycobot_bringup/package.dsv
+[6.078s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_bringup/share/ament_index/resource_index/packages/mycobot_bringup
+[6.088s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_bringup/share/mycobot_bringup/cmake/mycobot_bringupConfig.cmake
+[6.100s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_bringup/share/mycobot_bringup/cmake/mycobot_bringupConfig-version.cmake
+[6.107s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_bringup/share/mycobot_bringup/package.xml
+[6.115s] Invoked command in '/home/mmaaz/ros2_ws/build/mycobot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mmaaz/ros2_ws/build/mycobot_bringup

@@ -1,0 +1,261 @@
+[0.953s] Invoking command in '/home/mmaaz/ros2_ws/build/mycobot_mtc_pick_place_demo': CMAKE_MODULE_PATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/cmake CMAKE_PREFIX_PATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core:/home/mmaaz/ros2_ws/install/rviz_marker_tools:/home/mmaaz/ros2_ws/install/mycobot_interfaces:/home/mmaaz/ros2_ws/install/moveit_task_constructor_msgs:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo:/home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo:/home/mmaaz/ros2_ws/install/mycobot_mtc_demos:/home/mmaaz/ros2_ws/install/moveit_task_constructor_visualization:/home/mmaaz/ros2_ws/install/moveit_task_constructor_demo:/home/mmaaz/ros2_ws/install/moveit_task_constructor_capabilities:/home/mmaaz/ros2_ws/install/mycobot_ros2:/home/mmaaz/ros2_ws/install/mycobot_system_tests:/home/mmaaz/ros2_ws/install/mycobot_moveit_demos:/home/mmaaz/ros2_ws/install/mycobot_moveit_config:/home/mmaaz/ros2_ws/install/mycobot_gazebo:/home/mmaaz/ros2_ws/install/mycobot_description:/home/mmaaz/ros2_ws/install/mycobot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core/lib:/home/mmaaz/ros2_ws/install/rviz_marker_tools/lib:/home/mmaaz/ros2_ws/install/mycobot_interfaces/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo/lib:/home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_visualization/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_capabilities/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages:/home/mmaaz/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages:/home/mmaaz/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/mmaaz/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo
+[1.222s] -- The C compiler identification is GNU 13.3.0
+[1.916s] -- The CXX compiler identification is GNU 13.3.0
+[2.821s] -- Detecting C compiler ABI info
+[3.250s] -- Detecting C compiler ABI info - done
+[3.258s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.258s] -- Detecting C compile features
+[3.258s] -- Detecting C compile features - done
+[3.479s] -- Detecting CXX compiler ABI info
+[4.030s] -- Detecting CXX compiler ABI info - done
+[4.037s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.037s] -- Detecting CXX compile features
+[4.037s] -- Detecting CXX compile features - done
+[4.042s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.189s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.273s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.318s] -- Found generate_parameter_library: 0.4.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[4.326s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[4.570s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.586s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.605s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.629s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.719s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.723s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.813s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.105s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.290s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.638s] -- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[5.678s] -- Found moveit_common: 2.12.3 (/opt/ros/jazzy/share/moveit_common/cmake)
+[5.784s] -- Found moveit_core: 2.12.3 (/opt/ros/jazzy/share/moveit_core/cmake)
+[6.192s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[8.380s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[8.588s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[8.588s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.021s] -- Found moveit_ros_planning: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning/cmake)
+[9.028s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[9.087s] -- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[9.094s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[9.122s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[9.163s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[9.207s] -- Found moveit_task_constructor_core: 0.1.3 (/home/mmaaz/ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake)
+[9.313s] -- Found mycobot_interfaces: 0.0.0 (/home/mmaaz/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake)
+[9.393s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization 
+[9.395s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[9.395s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[9.395s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[9.395s]   cmake_policy command to set the policy and suppress this warning.
+[9.395s] 
+[9.395s]   CMake variable FLANN_ROOT is set to:
+[9.395s] 
+[9.395s]     /usr
+[9.395s] 
+[9.396s]   For compatibility, find_package is ignoring the variable, but code in a
+[9.396s]   .cmake module might still use it.
+[9.396s] Call Stack (most recent call first):
+[9.396s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[9.396s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[9.396s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[9.396s]   CMakeLists.txt:52 (find_package)
+[9.396s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[9.396s] [0m
+[9.397s] -- Found flann version 1.9.2
+[10.756s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[10.757s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[10.804s] -- Found Threads: TRUE  
+[10.807s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[10.979s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[11.589s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[11.589s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[11.594s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[13.030s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[14.205s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[14.225s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[19.023s] -- Found X11: /usr/include   
+[19.023s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[19.462s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[19.462s] -- Looking for gethostbyname
+[19.907s] -- Looking for gethostbyname - found
+[19.908s] -- Looking for connect
+[20.370s] -- Looking for connect - found
+[20.370s] -- Looking for remove
+[20.770s] -- Looking for remove - found
+[20.771s] -- Looking for shmat
+[21.211s] -- Looking for shmat - found
+[21.211s] -- Looking for IceConnectionNumber in ICE
+[21.673s] -- Looking for IceConnectionNumber in ICE - found
+[27.689s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.6.1") 
+[27.695s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[27.702s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.4") 
+[27.707s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.4.5") 
+[28.510s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[32.802s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.5.1")  
+[32.808s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.13.2") 
+[32.817s] -- Found utf8cpp: /usr/include/utf8cpp  
+[33.003s] -- Checking for module 'libusb-1.0'
+[33.037s] --   Found libusb-1.0, version 1.0.27
+[33.358s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[33.361s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[33.361s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[33.785s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[33.786s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[34.033s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[34.033s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[60.501s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[60.513s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[79.595s] -- Found Qhull version 8.0.2
+[93.973s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[106.480s] -- looking for PCL_COMMON
+[106.481s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[106.481s] -- looking for PCL_KDTREE
+[106.481s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[106.482s] -- looking for PCL_OCTREE
+[106.482s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[106.482s] -- looking for PCL_SEARCH
+[106.483s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[106.483s] -- looking for PCL_SAMPLE_CONSENSUS
+[106.484s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[106.484s] -- looking for PCL_FILTERS
+[106.485s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[106.485s] -- looking for PCL_2D
+[106.485s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[106.485s] -- looking for PCL_GEOMETRY
+[106.486s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[106.486s] -- looking for PCL_IO
+[106.486s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[106.487s] -- looking for PCL_FEATURES
+[106.487s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[106.488s] -- looking for PCL_ML
+[106.488s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[106.489s] -- looking for PCL_SEGMENTATION
+[106.489s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[106.489s] -- looking for PCL_VISUALIZATION
+[106.490s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[106.490s] -- looking for PCL_SURFACE
+[106.491s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[106.491s] -- looking for PCL_REGISTRATION
+[106.492s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[106.492s] -- looking for PCL_KEYPOINTS
+[106.493s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[106.493s] -- looking for PCL_TRACKING
+[106.494s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[106.494s] -- looking for PCL_RECOGNITION
+[106.495s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[106.496s] -- looking for PCL_STEREO
+[106.496s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[106.496s] -- looking for PCL_APPS
+[106.497s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[106.498s] -- looking for PCL_IN_HAND_SCANNER
+[106.498s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[106.498s] -- looking for PCL_MODELER
+[106.498s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[106.498s] -- looking for PCL_POINT_CLOUD_EDITOR
+[106.499s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[106.499s] -- looking for PCL_OUTOFCORE
+[106.500s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[106.500s] -- looking for PCL_PEOPLE
+[106.501s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[106.502s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::RenderingContextOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[106.505s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[106.538s] -- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)
+[106.737s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[106.766s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[106.768s] -- Configured cppcheck include dirs: /home/mmaaz/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo/include;$<BUILD_INTERFACE:/home/mmaaz/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo/include>
+[106.768s] -- Configured cppcheck exclude dirs and/or files: 
+[106.769s] -- Added test 'flake8' to check Python code syntax and style conventions
+[106.769s] -- Configured 'flake8' exclude dirs and/or files: 
+[106.770s] -- Added test 'lint_cmake' to check CMake code style
+[106.771s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[106.772s] -- Added test 'uncrustify' to check C / C++ code style
+[106.772s] -- Configured uncrustify additional arguments: 
+[106.773s] -- Added test 'xmllint' to check XML markup files
+[106.776s] -- Configuring done (105.8s)
+[107.092s] -- Generating done (0.2s)
+[107.124s] -- Build files have been written to: /home/mmaaz/ros2_ws/build/mycobot_mtc_pick_place_demo
+[107.147s] Invoked command in '/home/mmaaz/ros2_ws/build/mycobot_mtc_pick_place_demo' returned '0': CMAKE_MODULE_PATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/cmake CMAKE_PREFIX_PATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core:/home/mmaaz/ros2_ws/install/rviz_marker_tools:/home/mmaaz/ros2_ws/install/mycobot_interfaces:/home/mmaaz/ros2_ws/install/moveit_task_constructor_msgs:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo:/home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo:/home/mmaaz/ros2_ws/install/mycobot_mtc_demos:/home/mmaaz/ros2_ws/install/moveit_task_constructor_visualization:/home/mmaaz/ros2_ws/install/moveit_task_constructor_demo:/home/mmaaz/ros2_ws/install/moveit_task_constructor_capabilities:/home/mmaaz/ros2_ws/install/mycobot_ros2:/home/mmaaz/ros2_ws/install/mycobot_system_tests:/home/mmaaz/ros2_ws/install/mycobot_moveit_demos:/home/mmaaz/ros2_ws/install/mycobot_moveit_config:/home/mmaaz/ros2_ws/install/mycobot_gazebo:/home/mmaaz/ros2_ws/install/mycobot_description:/home/mmaaz/ros2_ws/install/mycobot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core/lib:/home/mmaaz/ros2_ws/install/rviz_marker_tools/lib:/home/mmaaz/ros2_ws/install/mycobot_interfaces/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo/lib:/home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_visualization/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_capabilities/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages:/home/mmaaz/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages:/home/mmaaz/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/mmaaz/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo
+[107.149s] Invoking command in '/home/mmaaz/ros2_ws/build/mycobot_mtc_pick_place_demo': CMAKE_MODULE_PATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/cmake CMAKE_PREFIX_PATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core:/home/mmaaz/ros2_ws/install/rviz_marker_tools:/home/mmaaz/ros2_ws/install/mycobot_interfaces:/home/mmaaz/ros2_ws/install/moveit_task_constructor_msgs:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo:/home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo:/home/mmaaz/ros2_ws/install/mycobot_mtc_demos:/home/mmaaz/ros2_ws/install/moveit_task_constructor_visualization:/home/mmaaz/ros2_ws/install/moveit_task_constructor_demo:/home/mmaaz/ros2_ws/install/moveit_task_constructor_capabilities:/home/mmaaz/ros2_ws/install/mycobot_ros2:/home/mmaaz/ros2_ws/install/mycobot_system_tests:/home/mmaaz/ros2_ws/install/mycobot_moveit_demos:/home/mmaaz/ros2_ws/install/mycobot_moveit_config:/home/mmaaz/ros2_ws/install/mycobot_gazebo:/home/mmaaz/ros2_ws/install/mycobot_description:/home/mmaaz/ros2_ws/install/mycobot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core/lib:/home/mmaaz/ros2_ws/install/rviz_marker_tools/lib:/home/mmaaz/ros2_ws/install/mycobot_interfaces/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo/lib:/home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_visualization/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_capabilities/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages:/home/mmaaz/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages:/home/mmaaz/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/mmaaz/ros2_ws/build/mycobot_mtc_pick_place_demo -- -j22 -l22
+[107.195s] [  6%] [32mBuilding CXX object CMakeFiles/get_planning_scene_client.dir/src/get_planning_scene_client.cpp.o[0m
+[107.195s] [ 12%] [32mBuilding CXX object CMakeFiles/plane_segmentation.dir/src/plane_segmentation.cpp.o[0m
+[107.196s] [ 18%] [32mBuilding CXX object CMakeFiles/object_segmentation.dir/src/object_segmentation.cpp.o[0m
+[107.197s] [ 25%] [32mBuilding CXX object CMakeFiles/cluster_extraction.dir/src/cluster_extraction.cpp.o[0m
+[107.198s] [ 31%] [32mBuilding CXX object CMakeFiles/normals_curvature_and_rsd_estimation.dir/src/normals_curvature_and_rsd_estimation.cpp.o[0m
+[107.201s] [ 37%] [32mBuilding CXX object CMakeFiles/get_planning_scene_client_node.dir/src/get_planning_scene_client.cpp.o[0m
+[115.409s] [ 43%] [32m[1mLinking CXX shared library libget_planning_scene_client.so[0m
+[115.535s] [ 50%] [32m[1mLinking CXX executable get_planning_scene_client_node[0m
+[116.502s] [ 50%] Built target get_planning_scene_client
+[116.531s] [ 56%] [32mBuilding CXX object CMakeFiles/mtc_node.dir/src/mtc_node.cpp.o[0m
+[116.718s] [ 56%] Built target get_planning_scene_client_node
+[120.712s] In file included from [01m[K/home/mmaaz/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo/src/mtc_node.cpp:39[m[K:
+[120.712s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[120.712s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[120.712s]       |                                                                             [01;36m[K^[m[K
+[123.454s] In file included from [01m[K/home/mmaaz/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo/src/mtc_node.cpp:40[m[K:
+[123.454s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[123.454s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[123.454s]       |                                                                             [01;36m[K^[m[K
+[128.160s] [ 62%] [32m[1mLinking CXX shared library libcluster_extraction.so[0m
+[132.571s] [ 62%] Built target cluster_extraction
+[139.790s] [ 68%] [32m[1mLinking CXX executable mtc_node[0m
+[141.103s] [ 68%] Built target mtc_node
+[145.409s] [ 75%] [32m[1mLinking CXX shared library libnormals_curvature_and_rsd_estimation.so[0m
+[148.533s] [ 75%] Built target normals_curvature_and_rsd_estimation
+[149.015s] [ 81%] [32m[1mLinking CXX shared library libobject_segmentation.so[0m
+[151.988s] [ 81%] Built target object_segmentation
+[182.999s] [ 87%] [32m[1mLinking CXX shared library libplane_segmentation.so[0m
+[185.322s] [ 87%] Built target plane_segmentation
+[185.340s] [ 93%] [32mBuilding CXX object CMakeFiles/get_planning_scene_server.dir/src/get_planning_scene_server.cpp.o[0m
+[264.514s] [100%] [32m[1mLinking CXX executable get_planning_scene_server[0m
+[265.494s] [100%] Built target get_planning_scene_server
+[265.503s] Invoked command in '/home/mmaaz/ros2_ws/build/mycobot_mtc_pick_place_demo' returned '0': CMAKE_MODULE_PATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/cmake CMAKE_PREFIX_PATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core:/home/mmaaz/ros2_ws/install/rviz_marker_tools:/home/mmaaz/ros2_ws/install/mycobot_interfaces:/home/mmaaz/ros2_ws/install/moveit_task_constructor_msgs:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo:/home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo:/home/mmaaz/ros2_ws/install/mycobot_mtc_demos:/home/mmaaz/ros2_ws/install/moveit_task_constructor_visualization:/home/mmaaz/ros2_ws/install/moveit_task_constructor_demo:/home/mmaaz/ros2_ws/install/moveit_task_constructor_capabilities:/home/mmaaz/ros2_ws/install/mycobot_ros2:/home/mmaaz/ros2_ws/install/mycobot_system_tests:/home/mmaaz/ros2_ws/install/mycobot_moveit_demos:/home/mmaaz/ros2_ws/install/mycobot_moveit_config:/home/mmaaz/ros2_ws/install/mycobot_gazebo:/home/mmaaz/ros2_ws/install/mycobot_description:/home/mmaaz/ros2_ws/install/mycobot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core/lib:/home/mmaaz/ros2_ws/install/rviz_marker_tools/lib:/home/mmaaz/ros2_ws/install/mycobot_interfaces/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo/lib:/home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_visualization/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_capabilities/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages:/home/mmaaz/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages:/home/mmaaz/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/mmaaz/ros2_ws/build/mycobot_mtc_pick_place_demo -- -j22 -l22
+[265.506s] Invoking command in '/home/mmaaz/ros2_ws/build/mycobot_mtc_pick_place_demo': CMAKE_MODULE_PATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/cmake CMAKE_PREFIX_PATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core:/home/mmaaz/ros2_ws/install/rviz_marker_tools:/home/mmaaz/ros2_ws/install/mycobot_interfaces:/home/mmaaz/ros2_ws/install/moveit_task_constructor_msgs:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo:/home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo:/home/mmaaz/ros2_ws/install/mycobot_mtc_demos:/home/mmaaz/ros2_ws/install/moveit_task_constructor_visualization:/home/mmaaz/ros2_ws/install/moveit_task_constructor_demo:/home/mmaaz/ros2_ws/install/moveit_task_constructor_capabilities:/home/mmaaz/ros2_ws/install/mycobot_ros2:/home/mmaaz/ros2_ws/install/mycobot_system_tests:/home/mmaaz/ros2_ws/install/mycobot_moveit_demos:/home/mmaaz/ros2_ws/install/mycobot_moveit_config:/home/mmaaz/ros2_ws/install/mycobot_gazebo:/home/mmaaz/ros2_ws/install/mycobot_description:/home/mmaaz/ros2_ws/install/mycobot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core/lib:/home/mmaaz/ros2_ws/install/rviz_marker_tools/lib:/home/mmaaz/ros2_ws/install/mycobot_interfaces/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo/lib:/home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_visualization/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_capabilities/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages:/home/mmaaz/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages:/home/mmaaz/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/mmaaz/ros2_ws/build/mycobot_mtc_pick_place_demo
+[265.511s] -- Install configuration: "Release"
+[265.511s] -- Execute custom install script
+[265.512s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/mycobot_mtc_pick_place_demo/get_planning_scene_client_node
+[265.519s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/mycobot_mtc_pick_place_demo/get_planning_scene_server
+[265.525s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/mycobot_mtc_pick_place_demo/mtc_node
+[265.532s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/config/get_planning_scene_server.yaml
+[265.540s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/config/mtc_node_params.yaml
+[265.547s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/mycobot_mtc_pick_place_demo/cluster_extraction.h
+[265.554s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/mycobot_mtc_pick_place_demo/get_planning_scene_client.h
+[265.560s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/mycobot_mtc_pick_place_demo/normals_curvature_and_rsd_estimation.h
+[265.570s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/mycobot_mtc_pick_place_demo/object_segmentation.h
+[265.576s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/mycobot_mtc_pick_place_demo/plane_segmentation.h
+[265.584s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/launch/get_planning_scene_server.launch.py
+[265.591s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/launch/pick_place_demo.launch.py
+[265.598s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/launch/point_cloud_viewer.launch.py
+[265.606s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/rviz/point_cloud_viewer.rviz
+[265.613s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/scripts/pointcloud.sh
+[265.619s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/scripts/robot.sh
+[265.626s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/environment/library_path.sh
+[265.634s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/environment/library_path.dsv
+[265.641s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/ament_index/resource_index/package_run_dependencies/mycobot_mtc_pick_place_demo
+[265.647s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/ament_index/resource_index/parent_prefix_path/mycobot_mtc_pick_place_demo
+[265.653s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/environment/ament_prefix_path.sh
+[265.661s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/environment/ament_prefix_path.dsv
+[265.673s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/environment/path.sh
+[265.685s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/environment/path.dsv
+[265.691s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/local_setup.bash
+[265.699s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/local_setup.sh
+[265.708s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/local_setup.zsh
+[265.718s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/local_setup.dsv
+[265.725s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/package.dsv
+[265.732s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/ament_index/resource_index/packages/mycobot_mtc_pick_place_demo
+[265.738s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[265.746s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/cmake/ament_cmake_export_libraries-extras.cmake
+[265.753s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/cmake/ament_cmake_export_targets-extras.cmake
+[265.760s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/cmake/mycobot_mtc_pick_place_demoConfig.cmake
+[265.766s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/cmake/mycobot_mtc_pick_place_demoConfig-version.cmake
+[265.773s] -- Symlinking: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/package.xml
+[265.779s] -- Installing: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/libcluster_extraction.so
+[265.780s] -- Set non-toolchain portion of runtime path of "/home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/libcluster_extraction.so" to ""
+[265.780s] -- Installing: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/libget_planning_scene_client.so
+[265.780s] -- Set non-toolchain portion of runtime path of "/home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/libget_planning_scene_client.so" to ""
+[265.780s] -- Installing: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/libnormals_curvature_and_rsd_estimation.so
+[265.781s] -- Set non-toolchain portion of runtime path of "/home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/libnormals_curvature_and_rsd_estimation.so" to ""
+[265.781s] -- Installing: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/libobject_segmentation.so
+[265.782s] -- Set non-toolchain portion of runtime path of "/home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/libobject_segmentation.so" to ""
+[265.782s] -- Installing: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/libplane_segmentation.so
+[265.784s] -- Set non-toolchain portion of runtime path of "/home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/lib/libplane_segmentation.so" to ""
+[265.784s] -- Installing: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/cmake/export_mycobot_mtc_pick_place_demoExport.cmake
+[265.784s] -- Installing: /home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/share/mycobot_mtc_pick_place_demo/cmake/export_mycobot_mtc_pick_place_demoExport-release.cmake
+[265.786s] Invoked command in '/home/mmaaz/ros2_ws/build/mycobot_mtc_pick_place_demo' returned '0': CMAKE_MODULE_PATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/cmake CMAKE_PREFIX_PATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core:/home/mmaaz/ros2_ws/install/rviz_marker_tools:/home/mmaaz/ros2_ws/install/mycobot_interfaces:/home/mmaaz/ros2_ws/install/moveit_task_constructor_msgs:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo:/home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo:/home/mmaaz/ros2_ws/install/mycobot_mtc_demos:/home/mmaaz/ros2_ws/install/moveit_task_constructor_visualization:/home/mmaaz/ros2_ws/install/moveit_task_constructor_demo:/home/mmaaz/ros2_ws/install/moveit_task_constructor_capabilities:/home/mmaaz/ros2_ws/install/mycobot_ros2:/home/mmaaz/ros2_ws/install/mycobot_system_tests:/home/mmaaz/ros2_ws/install/mycobot_moveit_demos:/home/mmaaz/ros2_ws/install/mycobot_moveit_config:/home/mmaaz/ros2_ws/install/mycobot_gazebo:/home/mmaaz/ros2_ws/install/mycobot_description:/home/mmaaz/ros2_ws/install/mycobot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core/lib:/home/mmaaz/ros2_ws/install/rviz_marker_tools/lib:/home/mmaaz/ros2_ws/install/mycobot_interfaces/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo/lib:/home/mmaaz/ros2_ws/install/mycobot_mtc_pick_place_demo/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_visualization/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_demo/lib:/home/mmaaz/ros2_ws/install/moveit_task_constructor_capabilities/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/mmaaz/ros2_ws/install/moveit_task_constructor_core/lib/python3.12/site-packages:/home/mmaaz/ros2_ws/install/mycobot_interfaces/lib/python3.12/site-packages:/home/mmaaz/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages:/home/mmaaz/ros2_ws/install/warehouse_ros_mongo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/mmaaz/ros2_ws/build/mycobot_mtc_pick_place_demo

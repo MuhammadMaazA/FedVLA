@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/mmaaz/ros2_ws/build/mycobot_mtc_demos/fallbacks_move_to" "TARGETS" "mycobot_mtc_demos_fallbacks_move_to" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/mycobot_mtc_demos")

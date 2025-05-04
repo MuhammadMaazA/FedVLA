@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/mmaaz/ros2_ws/build/mycobot_system_tests/arm_gripper_loop_controller" "TARGETS" "arm_gripper_loop_controller" "DESTINATION" "lib/mycobot_system_tests")

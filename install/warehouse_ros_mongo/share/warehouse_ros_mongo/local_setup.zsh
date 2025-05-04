@@ -1,0 +1,1 @@
+/home/mmaaz/ros2_ws/build/warehouse_ros_mongo/ament_cmake_environment_hooks/local_setup.zsh

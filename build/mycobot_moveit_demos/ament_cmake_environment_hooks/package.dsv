@@ -1,0 +1,4 @@
+source;share/mycobot_moveit_demos/local_setup.bash
+source;share/mycobot_moveit_demos/local_setup.dsv
+source;share/mycobot_moveit_demos/local_setup.sh
+source;share/mycobot_moveit_demos/local_setup.zsh
