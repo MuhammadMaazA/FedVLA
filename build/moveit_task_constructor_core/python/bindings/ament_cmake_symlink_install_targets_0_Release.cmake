@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/mmaaz/ros2_ws/build/moveit_task_constructor_core/python/bindings/pymoveit_mtc.cpython-312-x86_64-linux-gnu.so" "TARGETS" "pymoveit_mtc" "LIBRARY_DESTINATION" "lib/python3.12/site-packages")

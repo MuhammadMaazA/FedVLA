@@ -1,1 +1,0 @@
-/home/mmaaz/ros2_ws/src/moveit_task_constructor/core/include/moveit/task_constructor/stages/fix_collision_objects.h

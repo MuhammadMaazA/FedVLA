@@ -1,2 +1,0 @@
-[console_scripts]
-save_images = image_saver.save_images:main

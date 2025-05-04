@@ -1,1 +1,0 @@
-/home/mmaaz/ros2_ws/src/warehouse_ros_mongo/test/warehouse_ros_mongo.launch.py

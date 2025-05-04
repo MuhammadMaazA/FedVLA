@@ -1,1 +1,0 @@
-/home/mmaaz/ros2_ws/src/moveit_task_constructor/demo/scripts/cartesian.py

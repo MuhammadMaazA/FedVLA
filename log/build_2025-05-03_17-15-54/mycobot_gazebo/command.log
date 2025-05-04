@@ -1,4 +1,0 @@
-Invoking command in '/home/mmaaz/ros2_ws/build/mycobot_gazebo': /usr/bin/cmake --build /home/mmaaz/ros2_ws/build/mycobot_gazebo -- -j22 -l22
-Invoked command in '/home/mmaaz/ros2_ws/build/mycobot_gazebo' returned '0': /usr/bin/cmake --build /home/mmaaz/ros2_ws/build/mycobot_gazebo -- -j22 -l22
-Invoking command in '/home/mmaaz/ros2_ws/build/mycobot_gazebo': /usr/bin/cmake --install /home/mmaaz/ros2_ws/build/mycobot_gazebo
-Invoked command in '/home/mmaaz/ros2_ws/build/mycobot_gazebo' returned '0': /usr/bin/cmake --install /home/mmaaz/ros2_ws/build/mycobot_gazebo

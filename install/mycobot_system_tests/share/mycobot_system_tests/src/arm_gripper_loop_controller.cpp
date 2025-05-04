@@ -1,1 +1,0 @@
-/home/mmaaz/ros2_ws/src/mycobot_ros2/mycobot_system_tests/src/arm_gripper_loop_controller.cpp
