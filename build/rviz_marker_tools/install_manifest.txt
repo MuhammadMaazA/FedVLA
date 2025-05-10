@@ -1,3 +1,0 @@
-/home/mmaaz/ros2_ws/install/rviz_marker_tools/lib/librviz_marker_tools.so
-/home/mmaaz/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport.cmake
-/home/mmaaz/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport-release.cmake

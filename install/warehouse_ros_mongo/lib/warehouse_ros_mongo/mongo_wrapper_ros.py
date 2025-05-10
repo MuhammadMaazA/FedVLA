@@ -1,1 +1,0 @@
-/home/mmaaz/ros2_ws/src/warehouse_ros_mongo/warehouse_ros_mongo/mongo_wrapper_ros.py

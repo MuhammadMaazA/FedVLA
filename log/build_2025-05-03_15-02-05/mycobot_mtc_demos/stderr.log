@@ -1,4 +1,0 @@
-In file included from [01m[K/home/mmaaz/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/ik_clearance_cost.cpp:19[m[K:
-[01m[K/home/mmaaz/ros2_ws/build/mycobot_mtc_demos/include/ik_clearance_cost_parameters.hpp:1:154:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: #include "ik_clearance_cost_parameters.hpp" is deprecated. Use #include <mycobot_mtc_demos/ik_clearance_cost_parameters.hpp> instead.[m[K’
-    1 | #pragma message("#include \"ik_clearance_cost_parameters.hpp\" is deprecated. Use #include <mycobot_mtc_demos/ik_clearance_cost_parameters.hpp> instead."[01;36m[K)[m[K
-      |                                                                                                                                                          [01;36m[K^[m[K

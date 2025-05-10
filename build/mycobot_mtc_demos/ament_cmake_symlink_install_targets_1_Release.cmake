@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/mmaaz/ros2_ws/build/mycobot_mtc_demos/cartesian" "TARGETS" "mycobot_mtc_demos_cartesian" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/mycobot_mtc_demos")

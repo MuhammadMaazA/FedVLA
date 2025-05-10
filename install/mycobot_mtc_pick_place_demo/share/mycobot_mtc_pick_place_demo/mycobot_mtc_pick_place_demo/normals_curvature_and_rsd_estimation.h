@@ -1,1 +1,0 @@
-/home/mmaaz/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo/include/mycobot_mtc_pick_place_demo/normals_curvature_and_rsd_estimation.h

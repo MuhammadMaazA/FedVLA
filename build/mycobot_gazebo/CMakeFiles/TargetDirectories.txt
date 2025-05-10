@@ -1,9 +1,0 @@
-/home/mmaaz/ros2_ws/build/mycobot_gazebo/CMakeFiles/uninstall.dir
-/home/mmaaz/ros2_ws/build/mycobot_gazebo/CMakeFiles/mycobot_gazebo_uninstall.dir
-/home/mmaaz/ros2_ws/build/mycobot_gazebo/CMakeFiles/test.dir
-/home/mmaaz/ros2_ws/build/mycobot_gazebo/CMakeFiles/edit_cache.dir
-/home/mmaaz/ros2_ws/build/mycobot_gazebo/CMakeFiles/rebuild_cache.dir
-/home/mmaaz/ros2_ws/build/mycobot_gazebo/CMakeFiles/list_install_components.dir
-/home/mmaaz/ros2_ws/build/mycobot_gazebo/CMakeFiles/install.dir
-/home/mmaaz/ros2_ws/build/mycobot_gazebo/CMakeFiles/install/local.dir
-/home/mmaaz/ros2_ws/build/mycobot_gazebo/CMakeFiles/install/strip.dir

@@ -1,1 +1,0 @@
-/home/mmaaz/ros2_ws/build/mycobot_interfaces/rosidl_generator_cpp/mycobot_interfaces/srv/get_planning_scene.hpp

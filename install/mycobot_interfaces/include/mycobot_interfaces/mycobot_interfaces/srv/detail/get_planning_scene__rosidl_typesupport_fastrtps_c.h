@@ -1,1 +1,0 @@
-/home/mmaaz/ros2_ws/build/mycobot_interfaces/rosidl_typesupport_fastrtps_c/mycobot_interfaces/srv/detail/get_planning_scene__rosidl_typesupport_fastrtps_c.h

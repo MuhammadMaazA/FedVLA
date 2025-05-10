@@ -1,1 +1,0 @@
-/home/mmaaz/ros2_ws/build/mycobot_moveit_config/ament_cmake_core/mycobot_moveit_configConfig.cmake

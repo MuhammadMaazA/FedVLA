@@ -1,1 +1,0 @@
-/home/mmaaz/ros2_ws/build/warehouse_ros_mongo/include/warehouse_ros_mongo/config.h

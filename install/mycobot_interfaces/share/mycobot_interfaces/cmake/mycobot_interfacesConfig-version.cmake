@@ -1,1 +1,0 @@
-/home/mmaaz/ros2_ws/build/mycobot_interfaces/ament_cmake_core/mycobot_interfacesConfig-version.cmake

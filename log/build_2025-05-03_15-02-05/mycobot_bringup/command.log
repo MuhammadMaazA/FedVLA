@@ -1,6 +1,0 @@
-Invoking command in '/home/mmaaz/ros2_ws/build/mycobot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/mmaaz/ros2_ws/src/mycobot_ros2/mycobot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mmaaz/ros2_ws/install/mycobot_bringup
-Invoked command in '/home/mmaaz/ros2_ws/build/mycobot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/mmaaz/ros2_ws/src/mycobot_ros2/mycobot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mmaaz/ros2_ws/install/mycobot_bringup
-Invoking command in '/home/mmaaz/ros2_ws/build/mycobot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mmaaz/ros2_ws/build/mycobot_bringup -- -j22 -l22
-Invoked command in '/home/mmaaz/ros2_ws/build/mycobot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mmaaz/ros2_ws/build/mycobot_bringup -- -j22 -l22
-Invoking command in '/home/mmaaz/ros2_ws/build/mycobot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mmaaz/ros2_ws/build/mycobot_bringup
-Invoked command in '/home/mmaaz/ros2_ws/build/mycobot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mmaaz/ros2_ws/build/mycobot_bringup

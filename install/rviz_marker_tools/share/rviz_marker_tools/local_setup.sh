@@ -1,1 +1,0 @@
-/home/mmaaz/ros2_ws/build/rviz_marker_tools/ament_cmake_environment_hooks/local_setup.sh

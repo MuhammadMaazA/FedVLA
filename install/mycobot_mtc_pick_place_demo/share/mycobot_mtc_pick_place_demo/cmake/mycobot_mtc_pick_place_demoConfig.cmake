@@ -1,1 +1,0 @@
-/home/mmaaz/ros2_ws/build/mycobot_mtc_pick_place_demo/ament_cmake_core/mycobot_mtc_pick_place_demoConfig.cmake

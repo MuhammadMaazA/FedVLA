@@ -1,1 +1,0 @@
-/home/mmaaz/ros2_ws/build/mycobot_mtc_demos/include/mycobot_mtc_demos/ik_clearance_cost_parameters.hpp

@@ -1,1 +1,0 @@
-/home/mmaaz/ros2_ws/src/mycobot_ros2/mycobot_bringup/scripts/mycobot_280_gazebo_and_moveit.sh
