@@ -247,6 +247,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Author
 
+Muhammad Maaz (muhammad.maaz.23@ucl.ac.uk)
 Yukun Wang (lambert.wang.23@ucl.ac.uk)
 
 ## Acknowledgments
