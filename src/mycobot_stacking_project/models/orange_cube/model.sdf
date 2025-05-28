@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+  <model name="orange_cube">
+    <static>false</static>
+    <link name="link">
+      <inertial>
+        <mass>0.1</mass>
+        <inertia>
+          <!-- Inertia for a 0.025m box with mass 0.1 -->
+          <ixx>1.0417e-5</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>1.0417e-5</iyy>
+          <iyz>0</iyz>
+          <izz>1.0417e-5</izz>
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.025 0.025 0.025</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>0.025 0.025 0.025</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1 0.65 0 1</ambient> <!-- Orange (approx) -->
+          <diffuse>1 0.65 0 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

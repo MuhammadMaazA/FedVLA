@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+  <world name="cube_stacking_world">
+    <!-- Gazebo Sim Systems -->
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics">
+    </plugin>
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands">
+    </plugin>
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster">
+    </plugin>
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+
+    <!-- To add realistic gravity, do: 0.0 0.0 -9.8, otherwise do 0.0 0.0 0.0 -->
+    <gravity>0.0 0.0 -9.8</gravity>
+
+    <!-- Include a model of the Sun from an external URI -->
+    <include>
+      <uri>
+        https://fuel.gazebosim.org/1.0/OpenRobotics/models/Sun
+      </uri>
+    </include>
+
+    <!-- Include a model of the Ground Plane from an external URI -->
+    <include>
+      <uri>
+        https://fuel.gazebosim.org/1.0/OpenRobotics/models/Ground Plane
+      </uri>
+    </include>
+
+    <!-- Define scene properties -->
+    <scene>
+      <shadows>false</shadows>
+    </scene>
+
+    <!-- Yellow Cube -->
+    <model name="yellow_cube">
+      <pose>0 0.20 0.0125 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>0.05</mass>
+          <inertia>
+            <ixx>5.2083e-6</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>5.2083e-6</iyy>
+            <iyz>0</iyz>
+            <izz>5.2083e-6</izz>
+          </inertia>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.025 0.025 0.025</size>
+            </box>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>10.0</mu>
+                <mu2>10.0</mu2>
+                <slip1>0.0</slip1>
+                <slip2>0.0</slip2>
+              </ode>
+              <torsional>
+                <coefficient>1.0</coefficient>
+                <use_patch_radius>true</use_patch_radius>
+                <surface_radius>0.01</surface_radius>
+                <ode>
+                  <slip>0.0</slip>
+                </ode>
+              </torsional>
+            </friction>
+            <contact>
+              <ode>
+                <kp>1e+6</kp>
+                <kd>100</kd>
+                <min_depth>0.001</min_depth>
+                <max_vel>0.01</max_vel>
+              </ode>
+            </contact>
+          </surface>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.025 0.025 0.025</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1.0 1.0 0.0 1</ambient>
+            <diffuse>1.0 1.0 0.0 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+          </material>
+        </visual>
+      </link>
+      <static>false</static>
+    </model>
+
+    <!-- Orange Cube -->
+    <model name="orange_cube">
+      <pose>0.035 0.25 0.0125 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>0.05</mass>
+          <inertia>
+            <ixx>5.2083e-6</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>5.2083e-6</iyy>
+            <iyz>0</iyz>
+            <izz>5.2083e-6</izz>
+          </inertia>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.025 0.025 0.025</size>
+            </box>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>5.0</mu>
+                <mu2>5.0</mu2>
+                <slip1>0.0</slip1>
+                <slip2>0.0</slip2>
+              </ode>
+              <torsional>
+                <coefficient>1.0</coefficient>
+                <use_patch_radius>true</use_patch_radius>
+                <surface_radius>0.01</surface_radius>
+                <ode>
+                  <slip>0.0</slip>
+                </ode>
+              </torsional>
+            </friction>
+            <contact>
+              <ode>
+                <kp>1e+6</kp>
+                <kd>100</kd>
+                <min_depth>0.001</min_depth>
+                <max_vel>0.01</max_vel>
+              </ode>
+            </contact>
+          </surface>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.025 0.025 0.025</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1.0 0.5 0.0 1</ambient>
+            <diffuse>1.0 0.5 0.0 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+          </material>
+        </visual>
+      </link>
+      <static>false</static>
+    </model>
+
+  </world>
+</sdf>

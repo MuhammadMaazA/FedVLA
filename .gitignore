@@ -1,0 +1,147 @@
+# ROS 2 specific ignores
+install/
+log/
+build/
+
+# Ignore generated docs
+*.dox
+*.wikidoc
+
+# Eclipse IDE
+.project
+.cproject
+.settings/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# CLion
+.idea/
+cmake-build-*/
+
+# QtCreator
+CMakeLists.txt.user
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+# Don't ignore .so files in src directory (might be needed for specific libraries)
+/build/**/*.so
+/install/**/*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+# Don't ignore .a files in src directory (might be needed for specific libraries)
+/build/**/*.a
+/install/**/*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+# Don't ignore .so files in src directory (might be needed for specific libraries)
+/build/**/*.so
+/install/**/*.so
+.Python
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Logs
+*.log
+log/
+
+# Colcon and ament
+.colcon_cd_root
+.ament_prefix_path
+
+# Environment hooks
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Bag files
+# Don't ignore bag files in src directory (might be needed for tests)
+/build/**/*.bag
+/install/**/*.bag
+/build/**/*.db3
+/install/**/*.db3
+/build/**/*.mcap
+/install/**/*.mcap
+
+# Custom message generation
+*__type_support.cpp
+*__rosidl_typesupport_*
+
+# PCL specific
+# Don't ignore point cloud files in src directory (might be needed for tests)
+/build/**/*.pcd
+/install/**/*.pcd
+/build/**/*.ply
+/install/**/*.ply
+
+# Temporary files
+*.swp
+*.swo
+
+
+
+
+# Custom ignores
+test_arm_positions.py
+run_inference_visualization.sh
+launch_cube_stacking.sh
+
+# Diffusion Policy checkpoints (large model files)
+DP/checkpoints/
+*.pth
