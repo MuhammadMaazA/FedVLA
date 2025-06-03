@@ -252,21 +252,11 @@ class ModelInferenceNode(Node):
         self.sqrt_recip_alphas = torch.sqrt(1.0 / alphas)
         self.sqrt_one_minus_alphas_cumprod = torch.sqrt(1.0 - alphas_cumprod)
 
-        # Fix the tensor size mismatch issue
-        if len(self.betas) == len(alphas_cumprod[:-1]):
-            self.posterior_variance = self.betas * (1.0 - alphas_cumprod[:-1]) / (1.0 - alphas_cumprod[1:])
-            # Add a zero at the end for the last timestep
-            self.posterior_variance = torch.cat([self.posterior_variance, torch.tensor([0.0])])
-        else:
-            # Alternative calculation if sizes don't match
-            self.get_logger().warning(f"Tensor size mismatch: betas={len(self.betas)}, alphas_cumprod[:-1]={len(alphas_cumprod[:-1])}")
-            # Create posterior variance directly
-            self.posterior_variance = torch.zeros_like(self.betas)
-            # Calculate for all but the last timestep
-            for t in range(len(self.betas) - 1):
-                self.posterior_variance[t] = self.betas[t] * (1.0 - alphas_cumprod[t]) / (1.0 - alphas_cumprod[t+1])
-            # Last timestep has zero variance
-            self.posterior_variance[-1] = 0.0
+        # Calculate posterior variance for timesteps 0..T-1
+        # alphas_cumprod has length equal to `timesteps`
+        # The variance is defined for the first T-1 steps, with the last step fixed to zero
+        self.posterior_variance = self.betas[:-1] * (1.0 - alphas_cumprod[:-1]) / (1.0 - alphas_cumprod[1:])
+        self.posterior_variance = torch.cat([self.posterior_variance, torch.tensor([0.0])])
 
         self.get_logger().info(f"Diffusion schedule set up with {self.timesteps} timesteps")
 
